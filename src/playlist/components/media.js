@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './media.css';
 import './playlist.css';
 
-class Media extends Component{
+class Media extends PureComponent{
   /*state = {
     author: 'Car alber'
   }
