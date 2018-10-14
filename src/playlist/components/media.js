@@ -4,18 +4,9 @@ import './media.css';
 import './playlist.css';
 
 class Media extends PureComponent{
-  /*state = {
-    author: 'Car alber'
-  }
-  handleClick = (event) => {
-    //console.log(this.props.image)
-    this.setState({
-      author: 'Ricardo.Celis',
-    })
-  }*/
   render() {
     return (
-      <div className="Media" onClick={ this.handleClick }>
+      <div className="Media" onClick={ this.props.handleClick }>
         <div className="Media-cover">
           <img className="Media-image"
             src={ this.props.cover }
