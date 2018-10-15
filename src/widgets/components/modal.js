@@ -3,8 +3,7 @@ import './modal.css';
 
 function Modal(props) {
   return(
-    <div className="Modal">
-      Modal  
+    <div className="Modal"> 
       {props.children}
       <button onClick={props.handleClick}>cerrar</button>  
     </div>    
