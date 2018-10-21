@@ -34,7 +34,6 @@ class Video extends Component {
             onTimeUpdate={handleTimeUpdate}
             onSeeking={handleSeeking}
             onSeeked={handleSeeked}
-            muted={true}
         />
       </div>
     )
