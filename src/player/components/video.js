@@ -33,8 +33,8 @@ class Video extends Component {
             onLoadedMetadata={handleLoadedMetadata}
             onTimeUpdate={handleTimeUpdate}
             onSeeking={handleSeeking}
-            onSeeked={handleSeeked}           
-            muted = {true}
+            onSeeked={handleSeeked}
+            muted={true}
         />
       </div>
     )
